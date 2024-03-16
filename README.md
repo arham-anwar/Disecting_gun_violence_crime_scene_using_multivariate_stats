@@ -1,3 +1,1 @@
-# Dichotomies_in_American_Gun_Violence_through_Multivariate_Statistics
-# Disecting_gun_violence_crime_scene_using_multivariate_stats
-# Disecting_gun_violence_crime_scene_using_multivariate_stats
+[embed][http://example.com/file.pdf](https://github.com/arham-anwar/Disecting_gun_violence_crime_scene_using_multivariate_stats/blob/main/Final_Anonymous.pdf)https://github.com/arham-anwar/Disecting_gun_violence_crime_scene_using_multivariate_stats/blob/main/Final_Anonymous.pdf[/embed]
