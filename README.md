@@ -16,21 +16,21 @@ This project aims to delve into the multifaceted issue of gun violence in North 
 7. [How to Run](#how-to-run)
 8. [License](#license)
 
-## Introduction
+## 1. Introduction
 
 Gun violence is a critical societal issue, necessitating a comprehensive understanding of incidents to inform preventive strategies. This study employs a dataset of gun-related incidents to extract valuable insights. Through advanced statistical techniques and visualizations, this analysis aims to unravel patterns, characteristics, and relationships hidden behind recorded history and extend previous efforts in curating this dataset.
 
-### Goals
+### 1.1. Goals
 
 - Identify patterns, trends, and clusters using feature engineering and clustering.
 - Provide insights to guide targeted interventions.
 - Contribute to informed decision-making for mitigating gun violence.
 
-## Data Description
+## 1.2. Data Description
 
 The dataset was sourced from Kaggle, titled “Gun Violence Data Comprehensive record of over 260k US gun violence incidents from 2013-2018”. It includes detailed information on each incident, such as the type of weapon used, number of victims, and relationships among participants.
 
-### Feature Engineering
+### 1.3. Feature Engineering
 
 Key features engineered from the dataset include:
 - **Lethality**: Weapon type and its lethality.
@@ -40,31 +40,31 @@ Key features engineered from the dataset include:
 - **Gender Ratio**: Female percentage of participants.
 - **Relationship Status**: Relationships between perpetrators and victims.
 
-## Model Selection & Methodology
+## 2. Model Selection & Methodology
 
 Three clustering algorithms were tested: DBScan, K-Median Clustering, Hierarchical clustering, and K-Means clustering. The final model selection was K-Means Clustering combined with PCA to reduce dimensionality.
 
-### Decision of ‘K’
+### 2.1. Decision of ‘K’
 
 The optimal number of clusters was determined through iterative testing and analysis of the total weighted sum of squares and gap statistics. The best value of 'K' was found to be 9.
 
-## Results
+## 3. Results
 
 The application of PCA and K-Means clustering revealed distinct groupings within the gun violence dataset. The identified clusters provide a granular understanding of the incidents, ranging from smaller-scale urban conflicts to organized crime and extreme outlier events.
 
-## Conclusion & Future Scope
+## 4.Conclusion & Future Scope
 
 This comprehensive analysis of gun violence incidents in the United States has successfully utilized advanced statistical techniques and clustering methodologies to extract meaningful insights. The findings advocate for targeted interventions and future extensions of the model to further inform preventive strategies.
 
-## How to Run
+## 5. How to Run
 
-### Prerequisites
+### 5.1. Prerequisites
 
 - R (version 4.0 or later)
 - RStudio (optional but recommended)
 - Required R packages: `dplyr`, `factoextra`, `purrr`, `ggplot2`, `reshape2`, `stargazer`, `cluster`, `corrplot`
 
-### Setup
+### 5.2. Setup
 
 1. Clone the repository:
    ```bash
@@ -117,14 +117,14 @@ This comprehensive analysis of gun violence incidents in the United States has s
    source("scripts/visualizations.R")
    ```
 
-### Running the Analysis
+### 5.3. Running the Analysis
 
 Run the following command in your R console to execute the entire analysis pipeline:
 ```r
 source("scripts/run_analysis.R")
 ```
 
-## License
+## 6. License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
