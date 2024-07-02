@@ -122,7 +122,7 @@ This comprehensive analysis of gun violence incidents in the United States has s
 Run the following command in your R console to execute the entire analysis pipeline:
 ```r
 source("scripts/run_analysis.R")
-
+```
 
 # Unveiling Dichotomies in North American Gun Violence through Multivariate Insights
 
