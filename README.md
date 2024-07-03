@@ -67,6 +67,8 @@ The application of PCA and K-Means clustering revealed distinct groupings within
 8. **Cluster 8: Tense Workplace** - Conflicts in professional settings with guns.
 9. **Cluster 9: Teen Turmoil** - Conflicts involving teenagers with moderate violence.
 
+![Gun Clusters](https://github.com/arham-anwar/GunViolenceData_DichotomyAnalysis_MultivariateStats/blob/main/Images/GunClusters.png)
+
 ## 5. Conclusion & Future Scope
 
 This comprehensive analysis of gun violence incidents in the United States successfully utilized advanced statistical techniques and clustering methodologies to extract meaningful insights. The findings advocate for targeted interventions and future extensions of the model to further inform preventive strategies.
